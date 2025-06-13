@@ -1,6 +1,14 @@
 version: 0.2
-phases:   install: 
-commands:       - echo "Nothing to install for static website"   
-build:
-commands:       - echo "No build step for static website"   
-artifacts:   files:     - '**/*'
+
+phases:
+  install:
+    commands:
+      - echo "Nothing to install for static website"
+
+  build:
+    commands:
+      - echo "No build step for static website"
+
+artifacts:
+  files:
+    - '**/*'
